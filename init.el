@@ -66,8 +66,53 @@
 (require 'init-sessions)
 (require 'init-fonts)
 
+
+(require 'init-editing-utils)
+(require 'init-whitespace)
+(require 'init-fci)
+
+
+(require 'init-vc)
+(require 'init-darcs)
+(require 'init-git)
+(require 'init-github)
+
+(require 'init-projectile)
+
+(require 'init-compile)
+;(require 'init-crontab)
+(require 'init-textile)
+(require 'init-markdown)
+;(require 'init-csv)
+(require 'init-javascript)
+
 (require 'init-org)
 (require 'init-python-mode)
+
+(require 'init-sql)
+
+(require 'init-paredit)
+(require 'init-lisp)
+(require 'init-slime)
+
+;(require 'init-common-lisp)
+
+
+;;(when *spell-check-support-enabled*
+;;  (require 'init-spelling))
+;;
+;;(require 'init-misc)
+;;
+;;(require 'init-folding)
+;;(require 'init-dash)
+;;(require 'init-ledger)
+;;;; Extra packages which don't require any configuration
+;;
+;;(require-package 'gnuplot)
+;;(require-package 'lua-mode)
+;;(when *is-a-mac*
+;;  (require-package 'osx-location))
+;;(maybe-require-package 'regex-tool)
 
 
 ;;----------------------------------------------------------------------------
