@@ -37,7 +37,7 @@
 (add-to-list 'package-archives
              `("melpa" . ,(if sanityinc/no-ssl
                               "http://elpa.emacs-china.org/melpa/"
-                            "https://melpa.org/packages/")))
+                            "http://elpa.emacs-china.org/melpa/")))
 
 (unless sanityinc/no-ssl
   ;; Force SSL for GNU ELPA
