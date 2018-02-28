@@ -55,7 +55,7 @@
 (require 'init-themes)
 (require 'init-gui-frames)
 (require 'init-dired)
-(require 'init-flycheck)
+;(require 'init-flycheck)
 
 (require 'init-recentf)
 (require 'init-smex)
@@ -95,6 +95,13 @@
 (require 'init-lisp)
 (require 'init-slime)
 
+
+
+(require 'init-evil)
+
+(require 'init-multi-term)
+
+
 ;(require 'init-common-lisp)
 
 
@@ -113,7 +120,6 @@
 ;;(when *is-a-mac*
 ;;  (require-package 'osx-location))
 ;;(maybe-require-package 'regex-tool)
-
 
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
@@ -148,6 +154,7 @@
 (provide 'init)
 
 ;; Local Variables:
+(setq-default indent-tabs-mode nil)
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
