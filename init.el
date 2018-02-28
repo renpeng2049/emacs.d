@@ -45,7 +45,7 @@
 ;;----------------------------------------------------------------------------
 
 (require-package 'wgrep)
-(require-package 'project-local-variables)
+;(require-package 'project-local-variables)
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'command-log-mode)
@@ -54,7 +54,7 @@
 (require 'init-xterm)
 (require 'init-themes)
 (require 'init-gui-frames)
-(require 'init-dired)
+;(require 'init-dired)
 ;(require 'init-flycheck)
 
 (require 'init-recentf)
