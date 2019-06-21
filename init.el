@@ -56,6 +56,7 @@
 (require-package 'diminish)
 (maybe-require-package 'scratch)
 (require-package 'command-log-mode)
+(require-package 'ripgrep)
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
@@ -85,6 +86,7 @@
 (require 'init-darcs)
 ;(require 'init-git)
 (require 'init-github)
+
 
 (require 'init-projectile)
 
@@ -137,11 +139,11 @@
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
 ;;----------------------------------------------------------------------------
-;(add-hook 'after-init-hook
-;          (lambda ()
-;            (require 'server)
-;            (unless (server-running-p)
-;              (server-start))))
+(add-hook 'after-init-hook
+          (lambda ()
+            (require 'server)
+            (unless (server-running-p)
+              (server-start))))
 
 
 ;;----------------------------------------------------------------------------
